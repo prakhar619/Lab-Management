@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Sign in</title>
+    </head>
+    <body>
+        <h2>Sign in to enter room</h2>
+        <form   action="/taForm_upload"  method="post">
+            <fieldset>
+                <legend>TA Info</legend>
+                <label>Name: <input      name="name"         type="text"     id="name_box"   value=""    size="20"    maxlength="40"  >                          </label>   <!--each form elem require label; widen clickable area; screen reader; implicit label--> 
+                <label>Password: <input  name="pin"          type="password" id="pin_box"    value=""    size="20"    maxlength="40"  required >                          </label>   <!--each form elem require label; widen clickable area; screen reader; implicit label--> 
+                <label>Email:<input      name="email"        type="email"    id="emID">                                                                                              </label>
+            </fieldset>
+            <fieldset>
+                <legend></legend>
+                <label>         <input   name="submit_data"     type="submit"   id="button_sub" value="Submit">         </label>
+            </fieldset>
+        </form>
+    </body>
+</html>
